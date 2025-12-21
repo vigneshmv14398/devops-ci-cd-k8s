@@ -2,7 +2,11 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('DevOps CI/CD App Running-ver 2');
+  res.send('DevOps CI/CD App Running-ver 3');
+});
+
+app.get('/health', (req, res) => {
+  res.send('OK');
 });
 
 app.listen(3000, () => {
