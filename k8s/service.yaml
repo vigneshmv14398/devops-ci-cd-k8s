@@ -3,10 +3,10 @@ kind: Service
 metadata: 
   name: dev-app-service
 spec: 
-  type: NodePort
+  type: LoadBalancer
   selector:  
     app: dev-app
   ports:
     - port: 80
       targetPort: 3000
-      nodePort: 30007
+      

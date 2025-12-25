@@ -4,4 +4,4 @@ metadata:
   name: dev-app-configmap
 data:
   APP_NAME: "Devops CI/CD App"
-  ENVIRONMENT: "staging"
+  ENVIRONMENT: "production"
