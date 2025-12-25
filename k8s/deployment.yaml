@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: dev-app
-          image: 869935075544.dkr.ecr.ap-south-1.amazonaws.com/dev-app:v5
+          image: IMAGE_PLACEHOLDER
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
