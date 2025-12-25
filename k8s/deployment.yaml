@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: dev-app
-          image: dec-app:v4
+          image: vigneshmv14398/dev-app:v4
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
