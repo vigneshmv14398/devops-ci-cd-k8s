@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: dev-app
-          image: vigneshmv14398/dev-app:v4
+          image: 869935075544.dkr.ecr.ap-south-1.amazonaws.com/dev-app:v5
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
